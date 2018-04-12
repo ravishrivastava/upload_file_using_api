@@ -2,6 +2,11 @@
 
 Example request with encoded 64 base image
 
+Authentication
+============================================================================================================================================
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.com","password":"123123123"}' http://localhost:3001/authenticate
+
+
 using postman
 ======================
  {
